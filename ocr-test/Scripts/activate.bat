@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Julian\Documents\Proyectos\Inteligencia-Artificial\ocr-test
+set VIRTUAL_ENV=C:\Users\Julian\Documents\Proyectos\Inteligencia-Artifical\ocr-test
 
 if not defined PROMPT set PROMPT=$P$G
 

@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Julian\Documents\Proyectos\Inteligencia-Artificial\ocr-test"
+VIRTUAL_ENV="C:\Users\Julian\Documents\Proyectos\Inteligencia-Artifical\ocr-test"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
