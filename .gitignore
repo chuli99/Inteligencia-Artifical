@@ -1,0 +1,5 @@
+ocr-test/Include
+ocr-test/Lib*
+ocr-test/Scripts*
+ocr-test/pyvenv.cfg
+/.vscode/*
