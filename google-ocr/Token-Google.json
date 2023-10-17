@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ocr-handwritting-401515",
+  "private_key_id": "9c0d3d7be88e04b2e7a6a2a1648441b87d93bc00",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDlhYDJRLJiNsDm\nW0RDlz4hY1EGLvP5XuTwTPFnNQxBmneZqNp5f3ru22XUki3rkh5IJeCls43lXeWu\nBJQG02DntOddEOirGitD9HUhZctflZlsQz04CGxw9h8jhcqH5Nou5Cf7ZPRMV9zK\nUbWoLctY7jepFdVsWJKiBjLB1VbDTsbrUqpP/6piR/62tmlgQmVHs9riTzKiTH6o\nbS9ECySRsaym6rtx2oMbYX/I93m7s9EXmlowP1+Qdp4wX98OteTvkdqR/AZkV7/k\nIqlZP+D8qCdprI9e2ZtHqeYTzENGbVkQok/mB5ZGp74sRxwo5P5Po6hgF3HEsL+1\nvbZZo0PXAgMBAAECggEAHMqTbiv06IcPyZW3SXdGbu/DcTAgoK57r30nZxfrcqtK\nx3a7+TO5mw7ghjrUEdHhhJFjzcVpTlVqA1tFqlmHtWknALCnTxdYSAz5SHg5e8ML\nXN5OZqH/4GevXkhhMIzPpcQvE8UFNDJtWt/HFtKvyHcRel9nx1CRDEwUv+XgHV2e\nmxIgTIfFlC5mpyK7V0TP4elYpf8Mg8eeDRU9j6NX5Pzl8KXWT8MU1cCj/Dcha63y\nHpug6+aRxj+5PyptCcWdLwNG0xykv/3731FtHRvESWDbtyvhc+IUoTXVNbCK8DiE\n/J5j+Kbc2mPvWWM+YbJANiBSqYdDwSgK7g05VS0UsQKBgQD01C3TBm0IthIPr3ZQ\njShRUZTlWRP9fPWYrvkbBV597TY866X95ipD06bezifvDwFGcKVdzd2ecw1OWpvB\nMgJvIFX3hxRGUUFjJJzp66HlxHyNR5eFFfgrubIZM3RAm8Ih42IBpxwPwRQAeekT\nRSPl4C9z1us9MrE9wmm4RgePHwKBgQDv/oVM6bjuF1UEL8hJludoq5Cx+7Xh4iq3\nXhaL2z+FSBDY55Zb52IBaSCOtIZP82+BA0NZIhgWeYHdnikgsI4/4xY2fC1aGmna\nK3GOReLxj8MQHusjRCF5arQO6FLCZs0O2LHqkOqLXyhBMJ7f+VB/N0rTuhh0NPVy\nYK+n7noMSQKBgHjkYLBIBwT7KpX2NTz3RsZIu3Y4cyeDUZ6QH89Y6lzSCiswzSk/\nQvV1CHwSXiOsTBvlObLFGb7I3vQmx6wxLoSC+hAc8kT6kIgNJzJWuP3E9R+qD0aX\nH5Evw6KwBqJ0hvrG1bktNC0PUPofOJjcViqHdccEg+oXIu/1FND6O3dPAoGARnPa\nX/zQzBxPWd5JFslU/5Y18Pnqp/gEADZ/uejQGelRAMvjiPFBBRb+dsYqE7hsCFyT\n3cuzdI2RASUX/7+00q5wa+hCTAwq/N/6AwEjITTJ16ar8ntitEkNuL6c5PLWyb/1\nYt3N7MIviAuk6C1BY0cxETy1Rw/w6fXWOx839vkCgYEAumTCjjUSpZ5hoGtls/i7\nNcbKRT3ihA3t2orHY7G16XQiqX4zBqKbZEyqiLgFkaSh4ZGPZHCcfWjUPFr18bep\nGui2MF+5W0aX7xyqzHhzdADS+V+D91r+2LFF4ThBdHXrHN2ba/BQAnh39t/zykYV\nIjrk8BvsX6XEvVLqV0v4/bk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "visionapi-service-account@ocr-handwritting-401515.iam.gserviceaccount.com",
+  "client_id": "112091586175017160642",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/visionapi-service-account%40ocr-handwritting-401515.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
