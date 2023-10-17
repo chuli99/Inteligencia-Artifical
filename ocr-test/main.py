@@ -14,4 +14,3 @@ txt = pytesseract.image_to_string(file, config='--psm 6', nice=0, output_type=py
 print(txt)
 
 
-
