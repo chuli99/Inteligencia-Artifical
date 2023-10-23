@@ -8,7 +8,7 @@ spell = SpellChecker(language='es')
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-img = cv2.imread(r'C:\Users\Julian\Documents\Proyectos\Inteligencia-Artifical\ocr-test\Img\textodani2.png')
+img = cv2.imread(r'C:\Users\Julian\Documents\Proyectos\Inteligencia-Artifical\ocr-test\Img\Universidad.jpg')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 #cv2.imshow('Original', img)
 
@@ -17,13 +17,15 @@ _, result = cv2.threshold(img, 100,255, cv2.THRESH_BINARY, cv2.ADAPTIVE_THRESH_G
 cv2.waitKey(0)
 
 print("Aplicando filtrado...")
-gray = filter.get_grayscale(img)
+gray = filter.get_grayscale(result)
 thresh = filter.thresholding(gray)
 opening = filter.opening(gray)
 canny = filter.canny(gray)
 
+cv2.imwrite("gray.jpg", gray)
+
 print("Aplicando OCR...")
-txt = pytesseract.image_to_string(result, config='--psm 6 --oem 3 -l spa', nice=0, output_type=pytesseract.Output.STRING)
+txt = pytesseract.image_to_string(gray, config='--psm 8 --oem 3 -l spa', nice=0, output_type=pytesseract.Output.STRING)
 print("Texto:")
 print(txt)
 
@@ -38,5 +40,5 @@ for word in corrected_text:
     if word == None:
         corrected_text.remove(word)
     
-print("Texto original:", txt)
-print("Texto corregido:", corrected_text)
+#print("Texto original:", txt)
+#print("Texto corregido:", corrected_text)
